@@ -101,3 +101,7 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.contactInfo p{
+	margin:0;
+}
