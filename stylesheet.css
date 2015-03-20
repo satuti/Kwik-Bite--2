@@ -53,12 +53,15 @@ body {
 	display:block;
 	float:right;
 	text-align: center;
+	border-left: 15px solid white;
+	height: 600px;
 }
 
 .content .bottom {
 	width: 100%;
 	height: 250px;
 	text-align: center;
+	border-top: 15px solid #FF0000;
 }
 
 span {
@@ -147,4 +150,5 @@ span {
 
 .top {
 	height:600px;
+	border:15px solid white;
 }
