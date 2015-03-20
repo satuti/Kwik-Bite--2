@@ -31,15 +31,16 @@ body {
 	background-color: white;
 }
 
-.content, .left, .right {
-	border-bottom: 20px solid #FF0000;	
+.content, .left, .right , .top {
 	background-color: #FF7070;
 }
 
+
+.content .left , .content .right{
+	width:48%;
+}
 .content .left {
-	width: 498px;
 	float: left;
-	height: 600px;
 	display:block;
 }
 
@@ -49,8 +50,6 @@ body {
 }
 
 .content .right {
-	width: 498px;
-	height: 600px;
 	display:block;
 	float:right;
 	text-align: center;
@@ -143,4 +142,5 @@ body {
 }
 
 .top {
+	height:600px;
 }
